@@ -1,0 +1,183 @@
+*{
+    font-family: roboto;
+    margin:0;
+    padding:0;
+    text-decoration: inherit;
+    color:inherit;
+}
+
+li{
+    list-style-type: none;
+    list-style:none;
+    display:inline;
+}
+div{
+
+    overflow:hidden;
+}
+h1, h2, h4{
+    text-transform: uppercase
+}
+
+
+/* Header */
+header{
+    background:#ffffff;
+    color: #666666;
+    min-height: 110px;
+    max-height: 110px;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    font-weight: 100;
+    display: inline;
+    
+}
+
+header nav{
+    float: right;
+    margin-top: 45px;
+    color:black;
+    margin-right: 100px;
+}
+header #branding{
+    font-weight: 900;
+    letter-spacing: 5px;
+    font-size: 23px;
+    float: left;
+    display:fixed;
+    padding: 10px 10px 10px 10px;
+    margin: 15px 10px 10px 0px;
+}
+
+
+li:hover{
+    font-weight: bold;
+}
+/*
+.highlight:hover{
+    background:#ffffff;
+    color: #666666;
+}
+.highlight2:hover{
+    color: #ffffff;
+    background: #E22319;
+    padding: 0px 20px;
+}
+*/
+.highlight{
+    color:#ffffff;
+    background:#E22319;
+    padding: 0px 20px;
+    margin-left: 60px;
+    margin-right: 16px
+}
+
+/* Welcome */
+
+ div.welcome {
+    background: #E22319;
+    color:#ffffff;
+    min-height: 375px;
+    max-height: 375px;
+    width: 100%;
+    padding: 200px 0;
+    text-align: center;
+}
+
+.welcome h1{
+    margin-top: 150px ;
+    font-size: 70px;
+    font-weight: 900;
+
+}
+
+.welcome h2{
+    margin-top: 20px;
+    font-size: 40px ;
+    font-weight:100;
+}
+/* sections*/
+.section1 p, .section2 p{
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 20%;
+    padding-right:20%;
+    color: #666666;
+    font-weight: 100;
+}
+.section1{
+    padding-bottom: 90px;
+    border-bottom: 1px solid #666666;
+}
+.section1 h1, .section2 h1{
+    color: #333333;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 45px;
+}
+
+
+.name h4, .email h4{
+    font-size: 16px;
+    color:#666666;
+    font-weight: 900;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 20%;
+    padding-bottom: 60px
+}
+input{
+    margin-left: 20%;
+    padding-left: 5px;
+    width: 60%;
+    border-top-color: transparent;
+    border-left-color:transparent;
+    border-right-color:transparent;
+    border-bottom: 2px solid #666666;
+    height: 30px;
+    
+}
+
+button  { 
+    font-weight: 900;
+    margin-top: 40px;
+    margin-left: 20%;
+    border-radius: 50px;
+    color: #ffffff;
+    border:none;
+    text-align:center;
+    background-color: #E22319;
+    font-size: 15px;
+    width:240px;
+    height: 60px;
+    cursor: pointer;
+}
+button:hover{
+    color:#E22319;
+    background:#ffffff;
+    border:2px solid #E22319;
+}
+
+
+/* footer */
+footer{
+    padding-top: 50px;
+    min-height: 80px;
+    text-align: center;
+    color:#ffffff;
+    background: #333333;
+    margin-top: 80px;
+}
+
+
+
